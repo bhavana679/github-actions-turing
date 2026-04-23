@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
+      - name: Print Hello
+        uses: actions/checkout@v4   
       - name: add numbers
         run: node index.js
 
