@@ -12,6 +12,6 @@ jobs:
       - name: Repo Clone 
         uses: actions/checkout@v4   
       - name: add numbers
-        run: node index.js
+        run: node GitHubActions/index.js
 
         
